@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar {
+    position:fixed;
+    border: 2px solid;
+    display: flex;
+    justify-content:center;
+    padding: 10px 0px;
+    margin: 3px 3px;
+border-radius:20px;
+width: 100%;
+background-color: #fff
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+  
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px;
+}
+.main-section{
+    padding: 180px;
+    text-align: center;
+  gap:10px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  .main-section div {
+   
+  }
+  
+  .main-section img {
+    max-width: 50vh;
+    width: 100vh; 
+    height: auto;
+    border-radius: 10px;
+  
+  }
+  
+  .main-section h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .main-section p {
+    font-size: 1.3em;
+    color: #555;
+    line-height: 1;
+  }
+  .detail{
+    width: 100vh;
+  }
+
+  .skills-section{
+    padding-bottom:200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+  
+  .skills-section ul{
+   display: flex;
+   flex-wrap: flex;
+  } 
+  .skills-section .skills1 li{
+    list-style:none;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    color: #333;
+   
+  } .skills1 li img {
+    width: 150px;
+   
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .skills-section .skills2 li{
+    list-style:none;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+    width: 360px;
+    height: 100px;
+    
+    color: #333;
+   
+  } 
+  .skills2 li img{
+    width: 200px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .skills1 li:hover img, .skills2 li:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  #projects {
+    display: flex;
+    justify-content: center;  /* Centers the items horizontally */
+    align-items: center;      /* Centers the items vertically */
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;          /* Ensures items wrap if necessary */
+}
+
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;         
+    justify-content: center;  
+}
+
+#projects li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;         
+}
+
+#projects .project1 img, #projects .project2 img, #projects .project3 img {
+    height: 40vh;
+    margin-bottom: 10px;
+}
+
+#projects h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+#projects p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-form img {
+    max-width: 100%;
+    height: auto;
+    flex: 1;
+    object-fit: cover;
+}
+
+.contact-form form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 10px;
+    width:104%;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e55d50;
+}
